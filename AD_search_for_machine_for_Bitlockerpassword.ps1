@@ -3,6 +3,8 @@
 Author : Rudra Prasad Paul
 #>
 
+# Change the OU name based on your organisation 
+
 [CmdletBinding()]
 Param (
     [string]$OUName = "OU=MBAM,DC=variablex,DC=com"
